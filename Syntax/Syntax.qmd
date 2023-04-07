@@ -1,11 +1,11 @@
 ---
-title: "R workshop - Syntax"
-format: 
-  html:
-    code-fold: true
+title: "R Workshop - Syntax"
+author: "Ravina Banze"
+format: html
 editor: visual
-author: Ravina Banze
 ---
+
+Let's start with the basics
 
 ```{r}
 # This is a comment. Comments in R start with a "#" symbol.
@@ -66,8 +66,8 @@ pacman::p_load("tidyverse")
 ```
 
 ```{r}
-df <- read_csv("hotel_bookings.csv")
-df
+df <- read.csv("hotel_bookings.csv")
+head(df)
 ```
 
 ```{r}
